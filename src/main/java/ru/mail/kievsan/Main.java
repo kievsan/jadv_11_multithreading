@@ -23,7 +23,7 @@ public class Main {
         long startTs = System.currentTimeMillis(); // start time
 
         for (String text : texts) {
-            // Создаём задачу с результатом типа String
+            // Создаём задачу с результатом типа Integer
             Callable<Integer> myCallable = getMaxSize(text);
 
             // Отправляем задачу на выполнение в пул потоков
