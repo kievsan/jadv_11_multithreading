@@ -71,7 +71,6 @@ public class Main {
             }
             return maxSize;
         };
-
     }
 
     public static String generateText(String letters, int length) {
